@@ -48,10 +48,12 @@ If `~/.agents/skills` already exists, back it up or remove it before creating th
 | `django` | Implementing, reviewing, or refactoring Django applications. |
 | `django-rest-framework` | Working on APIs built with Django REST Framework. |
 | `fastapi` | Implementing or reviewing FastAPI services. |
+| `javascript` | Implementing, reviewing, or refactoring JavaScript or TypeScript code. |
 | `kubernetes` | Working on Kubernetes deployment, troubleshooting, or architecture tasks. |
 | `postgres-performance` | Investigating PostgreSQL query or data-access performance. |
 | `pytest` | Creating or improving Python automated tests. |
 | `python-best-practices` | Implementing or refactoring Python code with clean, simple patterns. |
+| `react` | Implementing, reviewing, or refactoring React applications and components. |
 | `security-review` | Reviewing application or infrastructure changes for security risks. |
 
 ## Structure

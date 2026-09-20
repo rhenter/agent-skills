@@ -1,0 +1,25 @@
+.DS_Store
+
+# IDE/project-local files
+.idea/
+.vscode/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node/package manager caches
+node_modules/
+.npm/
+.yarn/
+.pnpm-store/
+
+# Environment files
+.env
+.env.*
+
+# Build/output directories
+dist/
+build/
+coverage/
