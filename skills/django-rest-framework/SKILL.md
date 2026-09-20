@@ -1,20 +1,12 @@
 ---
 name: django-rest-framework
-description: Use for APIs built with Django REST Framework.
+description: Use for Django REST Framework serializers, ViewSets, APIViews, permissions, authentication, pagination, filtering, or DRF API behavior.
 ---
 
-# Django REST Framework
-
-## Guidelines
+# Django Rest Framework
 
 - Use serializers for validation and representation.
-- Choose ViewSets, APIViews, or generic views based on existing project conventions.
-- Apply authentication, permissions, pagination, and filtering explicitly.
-- Avoid business logic inside serializers when it belongs in the domain/service layer.
+- Follow existing ViewSet/APIView/generic-view conventions.
+- Make authentication, permissions, pagination, and filtering explicit.
+- Keep domain logic out of serializers when it belongs elsewhere.
 - Check queryset efficiency and authorization boundaries.
-
-## Before finishing
-
-- Follow the existing project's conventions and `AGENTS.md`.
-- Run the relevant formatter, linter, type checker, and tests when available.
-- Report assumptions, unresolved risks, and validation you could not perform.

@@ -1,20 +1,11 @@
 ---
 name: postgres-performance
-description: Use when investigating PostgreSQL query or data-access performance.
+description: Use when investigating PostgreSQL query latency, query plans, indexes, locking, N+1 queries, transaction performance, or database bottlenecks.
 ---
 
-# PostgreSQL Performance
-
-## Guidelines
+# Postgres Performance
 
 - Measure before optimizing.
-- Check query plans and index usage when relevant.
-- Look for N+1 access patterns and unnecessary round trips.
+- Inspect query plans and index usage when relevant.
+- Look for N+1 access and unnecessary round trips.
 - Consider cardinality, selectivity, locking, transaction scope, and data volume.
-- Do not add indexes blindly; explain write/storage trade-offs.
-
-## Before finishing
-
-- Follow the existing project's conventions and `AGENTS.md`.
-- Run the relevant formatter, linter, type checker, and tests when available.
-- Report assumptions, unresolved risks, and validation you could not perform.
