@@ -4,7 +4,8 @@ Reusable agent skills for Codex, Cursor, and other tools compatible with
 `SKILL.md`.
 
 These skills are intentionally tool-agnostic and project-agnostic. Keep reusable
-engineering guidance here. Put project-specific architecture, commands, business
+engineering guidance here. The repository-wide instructions are maintained in
+[`AGENTS.md`](AGENTS.md). Put project-specific architecture, commands, business
 rules, credentials, and constraints in each project's `AGENTS.md`.
 
 ## Installation
@@ -27,6 +28,15 @@ ln -s ~/agent-skills/skills ~/.codex/skills
 If `~/.codex/skills` already exists, back it up or remove it before creating the
 symlink.
 
+Expose the repository-wide instructions to Codex as well:
+
+```bash
+ln -s ~/agent-skills/AGENTS.md ~/.codex/AGENTS.md
+```
+
+If `~/.codex/AGENTS.md` already exists, back it up or remove it before creating
+the symlink.
+
 ### Other Agents
 
 For tools that read from `~/.agents/skills`, expose the same directory there:
@@ -37,6 +47,16 @@ ln -s ~/agent-skills/skills ~/.agents/skills
 ```
 
 If `~/.agents/skills` already exists, back it up or remove it before creating the symlink.
+
+Expose the repository-wide instructions to other agents too:
+
+```bash
+mkdir -p ~/.agents
+ln -s ~/agent-skills/AGENTS.md ~/.agents/AGENTS.md
+```
+
+If `~/.agents/AGENTS.md` already exists, back it up or remove it before creating
+the symlink.
 
 ## Available Skills
 
