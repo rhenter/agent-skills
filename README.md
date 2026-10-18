@@ -73,7 +73,7 @@ the symlink.
 | `kubernetes` | Working on Kubernetes deployment, troubleshooting, or architecture tasks. |
 | `postgres-performance` | Investigating PostgreSQL query or data-access performance. |
 | `pytest` | Creating or improving Python automated tests. |
-| `python-best-practices` | Implementing or refactoring Python code with clean, simple patterns. |
+| `python` | Implementing or refactoring Python code with clean, simple patterns. |
 | `react` | Implementing, reviewing, or refactoring React applications and components. |
 | `security-review` | Reviewing application or infrastructure changes for security risks. |
 | `subagent-driven-development` | Executing implementation plans with independent tasks, fresh subagents, and review gates. |
