@@ -67,6 +67,7 @@ the symlink.
 | `code-review` | Reviewing code changes or pull/merge requests. |
 | `django` | Implementing, reviewing, or refactoring Django applications. |
 | `django-rest-framework` | Working on APIs built with Django REST Framework. |
+| `executing-plans` | Executing an implementation plan inline, task by task, with verification checkpoints. |
 | `fastapi` | Implementing or reviewing FastAPI services. |
 | `javascript` | Implementing, reviewing, or refactoring JavaScript or TypeScript code. |
 | `kubernetes` | Working on Kubernetes deployment, troubleshooting, or architecture tasks. |
@@ -75,6 +76,7 @@ the symlink.
 | `python-best-practices` | Implementing or refactoring Python code with clean, simple patterns. |
 | `react` | Implementing, reviewing, or refactoring React applications and components. |
 | `security-review` | Reviewing application or infrastructure changes for security risks. |
+| `subagent-driven-development` | Executing implementation plans with independent tasks, fresh subagents, and review gates. |
 
 ## Structure
 

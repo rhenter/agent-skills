@@ -3,6 +3,7 @@
 # IDE/project-local files
 .idea/
 .vscode/
+skills/conductorscore
 
 # Python caches
 __pycache__/
