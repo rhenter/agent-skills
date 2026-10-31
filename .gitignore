@@ -14,6 +14,7 @@ __pycache__/
 node_modules/
 .npm/
 .yarn/
+.system
 .pnpm-store/
 
 # Environment files
@@ -24,3 +25,4 @@ node_modules/
 dist/
 build/
 coverage/
+*conductorscore*
