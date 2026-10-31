@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Loop Guard"
+  short_description: "Bound retries, stagnation, and agent delegation"
+  default_prompt: "Use $agent-loop-guard to complete this task with bounded retries and delegation."
