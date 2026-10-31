@@ -1,0 +1,4 @@
+interface:
+  display_name: "Atomic Git Publish"
+  short_description: "Create atomic commits and push them safely"
+  default_prompt: "Review the current repository changes, create atomic commits without co-author footers, validate them, and push the current branch."
