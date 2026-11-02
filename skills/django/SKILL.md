@@ -111,8 +111,9 @@ Before completing an implementation:
 1. Verify that custom fields are not defined in `models.py`.
 2. Verify that standalone utility functions are not defined in `models.py`.
 3. Confirm that reusable components were checked before creating new ones.
-4. Check ORM queries for unnecessary database access.
-5. Verify transaction boundaries and data integrity.
-6. Review migrations for correctness and safety.
-7. Ensure the implementation follows existing project conventions.
-8. Run relevant tests and project linting tools.
+4. Use internationalization (i18n) for model field labels, help texts, and `class Meta` attributes, following the project's existing conventions.
+5. Check ORM queries for unnecessary database access.
+6. Verify transaction boundaries and data integrity.
+7. Review migrations for correctness and safety.
+8. Ensure the implementation follows existing project conventions.
+9. Run relevant tests and project linting tools.
