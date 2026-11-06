@@ -1,11 +1,23 @@
 ---
 name: agent-loop-guard
-description: Prevent unproductive retries, repeated tool use, stagnation, and recursive delegation during agent tasks. Apply to root agents and subagents, especially long-running or multi-agent work.
+description: Keep coding, analysis, and tool-based tasks focused and context-efficient; prevent unproductive retries, stagnation, and recursive delegation. Do not apply to simple conversational replies.
 ---
 
 # Agent Loop Guard
 
 Complete the task with observable evidence. Never invent progress or execution.
+
+## Minimize scope and context
+
+- Define the smallest scope that delivers the requested outcome. Ask one short
+  question only if necessary; otherwise follow existing project conventions.
+- Search before opening files; read only relevant sections. Avoid dependencies,
+  caches, build output, and lockfiles unless the task specifically requires them.
+- Make the smallest compatible change and reuse existing patterns.
+- Batch independent reads and checks. Start validation with the smallest relevant
+  check; broaden only when the change or evidence warrants it.
+- Delegate only when it reduces total work, including coordination and context cost.
+- Keep the final response short: result, validation performed, and real pending items.
 
 ## Keep one compact record
 
@@ -99,4 +111,5 @@ have the host enforce shared atomic counters, ancestry checks, cancellation,
 tool timeouts, and an overall action/time budget outside the model. Local retry
 and stagnation limits alone cannot bound an endless sequence of distinct tasks.
 
-Read [examples.md](references/examples.md) for integration checks and scenario traces.
+Read [examples.md](references/examples.md) only when integration checks or scenario
+traces are needed.
