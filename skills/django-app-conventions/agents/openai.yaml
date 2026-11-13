@@ -1,0 +1,4 @@
+interface:
+  display_name: "Django App Conventions"
+  short_description: "Rich Django apps with clean boundaries"
+  default_prompt: "Use $django-app-conventions to implement this Django change with native serializers, rich models, and pluggable app boundaries."
