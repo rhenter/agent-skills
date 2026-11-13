@@ -21,21 +21,33 @@ git clone git@github.com:rhenter/agent-skills.git ~/agent-skills
 Expose the skills through Codex's global skills directory:
 
 ```bash
-mkdir -p ~/.codex
+mkdir -p ~/.codex 
 ln -s ~/agent-skills/skills ~/.codex/skills
 ```
 
-If `~/.codex/skills` already exists, back it up or remove it before creating the
-symlink.
+If `~/.codex/skills` already exists, back it up or remove it before creating the symlink.
 
-Expose the repository-wide instructions to Codex as well:
+### Claude Code
+
+Expose the skills through Codex's global skills directory:
 
 ```bash
-ln -s ~/agent-skills/AGENTS.md ~/.codex/AGENTS.md
+mkdir -p ~/.claude
+ln -s ~/agent-skills/skills ~/.claude/skills
 ```
 
-If `~/.codex/AGENTS.md` already exists, back it up or remove it before creating
-the symlink.
+If `~/.claude/skills` already exists, back it up or remove it before creating the symlink.
+
+### OpenCode
+
+Expose the skills through Codex's global skills directory:
+
+```bash
+mkdir -p ~/.opencode
+ln -s ~/agent-skills/skills ~/.opencode/skills
+```
+
+If `~/.opencode/skills` already exists, back it up or remove it before creating the symlink.
 
 ### Other Agents
 
@@ -48,11 +60,14 @@ ln -s ~/agent-skills/skills ~/.agents/skills
 
 If `~/.agents/skills` already exists, back it up or remove it before creating the symlink.
 
-Expose the repository-wide instructions to other agents too:
+
+## Jetbrains Editors 
+
+For each repository where you want to use the generic skill, add an AGENTS.md file to the root directory.
 
 ```bash
-mkdir -p ~/.agents
-ln -s ~/agent-skills/AGENTS.md ~/.agents/AGENTS.md
+cd <repository path>/
+ln -s ~/agent-skills/AGENTS.md ./
 ```
 
 If `~/.agents/AGENTS.md` already exists, back it up or remove it before creating
